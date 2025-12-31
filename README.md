@@ -1,4 +1,4 @@
-Title: Customer Churn Prediction using Machine Learning
+Project Title: Customer Churn Prediction using Machine Learning
 
 # Project Overview
 Customer churn refers to customers who stop using a company’s services.  
