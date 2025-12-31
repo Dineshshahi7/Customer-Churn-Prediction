@@ -1,12 +1,12 @@
-Project Title: Customer Churn Prediction using Machine Learning
+# Project Title: Customer Churn Prediction using Machine Learning
 
-# Project Overview
+## Project Overview
 Customer churn refers to customers who stop using a company’s services.  
 This project aims to "predict customer churn" using machine learning techniques so that businesses can take preventive actions to retain customers.
 
 The model is trained on a real-world "telecom customer dataset" and evaluates different machine learning algorithms to find the best-performing model.
 
-# Problem Statement
+## Problem Statement
 Telecom companies face significant revenue loss due to customer churn.  
 Manually identifying customers who are likely to leave is difficult and inefficient.
 
@@ -16,7 +16,7 @@ The objective of this project is to:
 - Help businesses improve customer retention strategies
 
 
-# Solution Approach
+## Solution Approach
 The solution follows a complete machine learning pipeline:
 1. Data loading and understanding  
 2. Data cleaning and preprocessing  
@@ -26,7 +26,7 @@ The solution follows a complete machine learning pipeline:
 6. Model evaluation and comparison  
 
 
-# Dataset Information
+## Dataset Information
 - **Dataset Name:** Telecom Dataset  
 - **Source:** Kaggle  
 - **Target Variable:** Churn (Yes / No)
@@ -40,7 +40,7 @@ Missing values and categorical features were handled during preprocessing.
 
 ---
 
-# Tools & Technologies Used
+## Tools & Technologies Used
 - Python  
 - NumPy  
 - Pandas  
@@ -50,7 +50,7 @@ Missing values and categorical features were handled during preprocessing.
 
 ---
 
-# Machine Learning Models Used
+## Machine Learning Models Used
 - Logistic Regression  
 - Decision Tree Classifier  
 - Random Forest Classifier  
@@ -59,17 +59,17 @@ Each model was trained and evaluated to compare performance.
 
 ---
 
-# Model Evaluation
+## Model Evaluation
 Models were evaluated using:
 - Accuracy  
 - Confusion Matrix  
 - Classification Report  
 
-✅ **Logistic Regression** performed best with approximately **81% accuracy** on test data.
+**Logistic Regression** performed best with approximately **81% accuracy** on test data.
 
 ---
 
-# Key Insights
+## Key Insights
 - Shorter tenure customers are more likely to churn compared to long-term customers, indicating loyalty reduces churn risk.
 - Month-to-month contract customers have the highest churn probability, while fixed contracts (1 or 2 years) show better retention. 
 - Higher monthly charges correlate with higher churn, indicating price sensitivity among customers.
@@ -77,7 +77,7 @@ Models were evaluated using:
 
 ---
 
-# How to Run the Project
+## How to Run the Project
 
 This project has been deployed as an interactive web application using Hugging Face Spaces.
 
